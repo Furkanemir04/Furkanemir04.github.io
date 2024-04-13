@@ -1,0 +1,40 @@
+/* - Yazı Ayaraları - */ 
+
+.container{
+    margin-top: 14rem;
+    background-color: rgb(0, 102, 255);
+    width: 34rem;
+    height: 15rem;
+    padding-top: 4rem;
+    border-radius: 2rem;
+    animation-name: boxani;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: forwards;
+    animation-delay: 0ms;
+}
+#maintext{
+    color: antiquewhite;
+    font-family: sans-serif;
+}
+
+/* - Body Ayarları - */ 
+
+body{
+    background-color: rgb(0, 0, 0);
+} 
+
+/* - Animasyonlar - */
+
+@keyframes boxani {
+    0% {background-color: rgb(0, 102, 255);}
+    10%{background-color: rgb(255, 0, 0);}
+    35%{background-color: yellow;}
+    45%{background-color: rgb(255, 123, 0);}
+    55%{background-color: rgb(255, 192, 231);}
+    60%{background-color: rgb(140, 0, 255);}
+    70%{background-color: rgb(195, 0, 255);}
+    80%{background-color: rgb(0, 238, 255);}
+    90%{background-color: rgb(72, 255, 0);}
+    100%{background-color: rgb(111, 0, 255);}
+}
